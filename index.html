@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
     content="satish bobalade, portfolio, satish, full stack dev, personal portfolio frontend design, portfolio design, portfolio website, personal portfolio" />
-  <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <meta name="description" content="Welcome to Satish's Portfolio. Full-Stack Web Developer and Android App Developer" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Font Awesome -->
@@ -69,6 +69,32 @@
   .logo:hover{
     transform: scale(1.2);
   }
+  /* Default styles for the skills container */
+#skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bar {
+  width: calc(20% - 20px); /* Four skills per row by default */
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+  .bar {
+    width: calc(50% - 20px); /* Two skills per row on devices up to 768px */
+  }
+}
+
+/* Media query for even smaller devices */
+@media screen and (max-width: 480px) {
+  .bar {
+    width: 100%; /* Single skill per row on devices up to 480px */
+  }
+}
+
   </style>
 </head>
 
@@ -178,7 +204,7 @@
     <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
     <div class="container">
-      <div class="row" id="skillsContainer">
+      <div class="row" id="skillsContainer" d>
 
         <div class="bar">
               <div class="info">
@@ -492,7 +518,7 @@
             target="_blank"></a>
           <a href="https://github.com/Satish210802" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
           <a href="mailto:satish.bobalade@mitaoe.ac.in" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-          <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+          <a href="https://twitter.com/" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
           <a href="https://web.telegram.org/" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
         </div>
       </div>
