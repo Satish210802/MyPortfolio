@@ -9,11 +9,17 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
+    body{
+      background-image: linear-gradient(white,white,#e1d9d9);
+    }
     img {
       height: 20vh;
       width: 30vw;
-
     }
 
     .cont {
@@ -29,29 +35,27 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="https://satish210802.github.io/MyPortfolio/"><img src="./assets/images/logo.png" alt="" class="src"
+    <a class="navbar-brand" href="https://satish210802.github.io/MyPortfolio/"><img src="./assets/images/logo.png" alt=""
+        class="src"
         style="height: 55px;width: 55px;border: 3px solid cyan; border-radius: 50%;margin-top: 3px;"> </a>
-        <h4 style="color: white;">PROJECT DETAILS</h4>
+    <h4 style="color: white;">PROJECT DETAILS</h4>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-
     </button>
-    
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-
-        
-        
         <li class="nav-item">
-          <a class="nav-link" href="https://satish210802.github.io/MyPortfolio/" style="font-weight: 700; font-size:larger;color:  white;">Home</a>
+          <a class="nav-link" href="https://satish210802.github.io/MyPortfolio/"
+            style="font-weight: 700; font-size:larger;color:  white;">Home</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="projdet"
-    style="width: 60vw; justify-content: center; align-items: center; margin: auto; margin-bottom: 20px; margin-top: 20px; border: 5px solid black;border-radius: 10px;padding: 20px;">
+    style="width: 80%; justify-content: center; align-items: center; margin: auto; margin-bottom: 20px; margin-top: 20px; border: 2px solid cyan;border-radius: 10px;padding: 20px;background-color: white;">
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -64,15 +68,15 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/images/projects/yp1.jpg" class="d-block w-100" alt="..." style="height: 50vh;">
+          <img src="./assets/images/projects/hm11.avif" class="d-block w-100" alt="..." style="height: 50vh;">
 
         </div>
         <div class="carousel-item">
-          <img src="./assets/images/projects/yp2.avif" class="d-block w-100" alt="..." style="height: 50vh;">
+          <img src="./assets/images/projects/hm1.avif" class="d-block w-100" alt="..." style="height: 50vh;">
 
         </div>
         <div class="carousel-item">
-          <img src="./assets/images/projects/yp3.jpg" class="d-block w-100" alt="..." style="height: 50vh;">
+          <img src="./assets/images/projects/hm3.jpg" class="d-block w-100" alt="..." style="height: 40vh;">
 
         </div>
       </div>
@@ -88,18 +92,26 @@
       </button>
     </div>
     <h2 style="text-align: center; margin-top: 20px;">YOGA POSE DETECTION USING MACHINE LEARNING</h2>
-    <p><strong>Key skills & Tools</strong>:HTML | CSS | JAVASCRIPT | PYTHON | ML | CV</p>
-    <p>
-        Yoga, known for its holistic benefits encompassing physical fitness and mental well-being, gained popularity as a means to
-         manage stress and maintain health during these challenging times. 
-        In the COVID-19 pandemic, the absence of in-person guidance and feedback posed a challenge for practitioners, especially 
-        those new to yoga. It has significantly altered how individuals engage in physical and mental well-being activities.
-        To address this gap, technology emerged as a solution to enhance the online yoga experience. Integrating Online Yoga Pose 
-        Detection Using AI not only brings the advantages of real-time feedback and 
-        personalized guidance but also helps individuals maintain a sense of connection with their practice, even when isolated at home.
-        
-    </p>
+    
+    <div style="max-height: 300px; overflow-y: auto; padding: 0 3%; text-align: justify;">
+      <p style="text-align: center;"><strong>Key skills & Tools</strong>:HTML | CSS | JAVASCRIPT | PHP | BOOTSTRAP</p>
+      <br>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yoga, known for its holistic benefits encompassing physical fitness and mental well-being, gained popularity as a means to
+        manage stress and maintain health during these challenging times. 
+       In the COVID-19 pandemic, the absence of in-person guidance and feedback posed a challenge for practitioners, especially 
+       those new to yoga. It has significantly altered how individuals engage in physical and mental well-being activities.
+       To address this gap, technology emerged as a solution to enhance the online yoga experience. Integrating Online Yoga Pose 
+       Detection Using AI not only brings the advantages of real-time feedback and 
+       personalized guidance but also helps individuals maintain a sense of connection with their practice, even when isolated at home.
+     
+      </p>
+    </div>
+    
+    <div class="btn"style="display:flex;flex-wrap:wrap;justify-content:center"><a href="#" class="href" >
+      <button type="button" class="btn btn-outline-info"><i class="fab fa-github"></i> GitHub &nbsp &nbsp <i class="fas fa-arrow-right"></i></button></a>
   </div>
+   </div>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
